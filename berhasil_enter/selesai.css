@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url("https://i.pinimg.com/originals/e2/52/ee/e252ee51fe694b9d14b7a00ae3f4954c.gif");
+    background-size: cover;
+}
+
+.nama {
+    color: blue;
+    font-size: x-large;
+    margin-bottom: 2px;
+    text-shadow: 
+    0 0 3px black,
+    0 0 5px black;
+}
+
+.just-p {
+    color: white;
+    margin-bottom: 15px;
+    font-size: small;
+    text-shadow: 
+    0 0 3px black,
+    0 0 5px black;
+}
+
+button {
+    color: darkgray;
+    width: 22%;
+    padding: 8px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+button:hover {
+    color: white;
+    background-color: darkgrey;
+    font-size: 11px;
+    box-shadow: 0 0 20px greenyellow;
+}
